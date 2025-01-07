@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Tablero</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cronometro-box">
+            <div class="images-equipos">
+                <div class="equipos-box">
+                    <img id="equipo-local" src="../img/cpef.png" alt="equipo-local">
+                    <h3 id="goles-local" class="goles-local" value="0">0</h3>
+                </div>
+                <div class="equipos-box">
+                    <img id="equipo-visitante" src="../img/cpef.png" alt="equipo-visitante">
+                    <h3 id="goles-visita" class="goles-visita" value=0>0</h3>
+                </div>
+            </div>
+            <div class="cronometro">
+                <p class="minutos" id="minutos" value="0">30</p>
+                <p>:</p>
+                <p class="segundos" id="segundos" value="0">00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

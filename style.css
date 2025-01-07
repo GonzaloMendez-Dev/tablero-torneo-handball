@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    -webkit-text-stroke: 4px black
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 116, 54, 1) 0%, rgba(255, 6, 170, 1) 100%);
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin-top: -5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cronometro-box {
+    padding-right: 0;
+}
+
+.cronometro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.goles-local {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.goles-visita {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tiempo {
+    margin: 2rem;
+}
+
+h3 {
+    font-size: 20rem;
+}
+
+.minutos {
+    padding-left: 30px;
+}
+
+
+p {
+    display: inline;
+    font-size: 19rem;
+}
+
+.equipo-marcador {
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+.images-equipos {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 47rem;
+}
+
+.equipos-box {
+    height: 300px;
+    width: 300px;
+    margin-top: 2rem;
+}
+
+.images-equipos img {
+    margin-top: 2rem;
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+
+img:hover {
+    cursor: pointer;
+}
